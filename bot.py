@@ -7,14 +7,14 @@ from maigret.sites import MaigretDatabase
 from maigret.report import save_pdf_report, generate_report_context
 from telethon.sync import TelegramClient, events
 
-API_ID = os.getenv('API_ID')
-API_HASH = os.getenv('API_HASH')
+API_ID = 16723398
+API_HASH = "9e07dd89d2f39bfadfd59798705e4662"
 
 MAIGRET_DB_FILE = 'data.json' # wget https://raw.githubusercontent.com/soxoj/maigret/main/maigret/resources/data.json
 COOKIES_FILE = "cookies.txt"  # wget https://raw.githubusercontent.com/soxoj/maigret/main/cookies.txt
 id_type = "username"
 USERNAME_REGEXP = r'^[a-zA-Z0-9-_\.]{5,}$'
-ADMIN_USERNAME = '@soxoj'
+ADMIN_USERNAME = '@bossnetworkk'
 
 # top popular sites from the Maigret database
 TOP_SITES_COUNT = 1500
